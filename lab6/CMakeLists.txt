@@ -1,0 +1,7 @@
+project(lab6)
+add_executable(${PROJECT_NAME}-task1 src/task1_check-xor.c)
+add_executable(${PROJECT_NAME}-task2 src/task2_check-fletcher.c)
+add_executable(${PROJECT_NAME}-task3 src/task3_crc.c)
+add_executable(${PROJECT_NAME}-task4 src/task4.c)
+add_executable(${PROJECT_NAME}-task5_check src/task5_check-csum.c src/xor_csum.h)
+add_executable(${PROJECT_NAME}-task5_create src/task5_create-csum.c src/xor_csum.h)
